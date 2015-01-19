@@ -1,0 +1,58 @@
+<section id="Overview">
+</section>
+<section id="Documents">
+  <h1>Documents</h1>
+  <div class="p">
+    A 'document' here refers to a file which may be rendered in a
+    readable, human friendly form. Every file in a Conveyor project is
+    considered a document. Consequently, the entire runtime stack may
+    be read as a series of documents.
+  </div>
+  <div class="p">
+    In practice, the document set can be divided between explicit
+    documents and runtime artifacts or source
+    code.<span class="note">'Source code' typically denotes program
+    code, but not necessarily configuration files or other runtime
+    artifacts. However, the term 'source code' is potentially broad
+    and less clunky, so we prefer it here.</span> Explicit documents
+    are "documents and nothing more", while the primary purpose of
+    source code is as program input. Conveyor source code should be
+    annotated according to
+    the <a href="#Source-Code-Conventions">source code
+    conventions</a>.
+  </div>
+</section>
+<section id="Sections-and-Headers">
+  <h1>Sections and Headers</h1>
+  <div class="p">
+    Top level sections should be denoted by the
+    HTML5 <code>section</code> element and all document content should
+    be contained within sections. Every section in a document should
+    have a unique <code>id</code> attribute.
+  </div>
+  <div class="p">
+    The initial document section may be untitled, especially if it is
+    an overview section. All subsequent sections should be titled and
+    the title should match the section <code>id</code>.
+  </div>
+  <div class="p">
+    Subsections may be explicitly created with
+    nested <code>section</code> elements or they may be implied
+    through the use of header
+    elements, <code>h2</code>, <code>h3</code>, etc. When there is no
+    explicit <code>section</code> element, the section <code>id</code>
+    should be associated with the header
+    element.<span data-perspective="detailed"> The use of explicit
+    sections may be usefully employed in conjuction
+    with <code>data-perspective</code> attributes.</span> Generally,
+    implicit sections should be preferred unless there is a reason for
+    declaring an explicit section though it is also somewhat a matter
+    of taste and style.
+  </div>
+</section>
+<section id="Source-Code-Conventions">
+  <h1>Source Code Conventions</h1>
+  <div class="p">
+    TODO
+  </div>
+</section>
