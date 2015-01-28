@@ -56,3 +56,34 @@
     TODO
   </div>
 </section>
+<section id="Stack-Reference">
+  <h1>Stack Reference</h1>
+  <div class="p">
+    Each distribution should maintain it's own 'stack reference'
+    documentation set. The stack reference should at a minimum list
+    component in the total software application stack. That is, every
+    OS, library, framework, server, application and any other software
+    component involved in the delivery of organization products or
+    underlying organization services.
+  </div>
+  <div class="p">
+    Organizations which do not maintain a software distribution need
+    not maintain a stack reference, though in some cases it may make
+    sense. In general, the stack reference deals with components for
+    which the organization bears some direct responsibility in
+    developing, supporting, or maintaining. Software which is
+    exclusively engaged as an end user and is not a link in any
+    software product delivery chain need not be included.
+  </div>
+  <div class="p">
+    In practice, a complete list is practically difficult and not
+    exactly a precise target. The rule of thumb is "include everything
+    anyone can think of".
+  </div>
+  <div class="p">
+    The recommended format is to group components into reasonable
+    categories. For instance application developers might consider:
+    'Application Tier', 'Middle Tier', and 'Host and Virtual
+    Hardware'.
+  </div>
+</section>
